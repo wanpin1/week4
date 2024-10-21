@@ -1,0 +1,14 @@
+// Exercise 2.6 (Lab2Task9.java)
+import java.util.Scanner;
+public class Lab2Task9 {
+    public static void main(String[] args) {
+        double monthlySaving = 100;
+        double monthlyInterestRate = 0.05 / 12;
+        double accountValue = monthlySaving * (1 + monthlyInterestRate);
+        System.out.println("After the first month, the value is " + accountValue);
+        accountValue = (monthlySaving + accountValue) * (1 + monthlyInterestRate);
+        System.out.println("After the second month, the value is " + accountValue);
+        accountValue = (monthlySaving + accountValue) * (1 + monthlyInterestRate);
+        System.out.println("After the third month, the value is " + accountValue);
+    }
+}
