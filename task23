@@ -1,0 +1,11 @@
+10. ```java
+   // Conditional Operator (Example 3.2)
+   // Lab2Task23.java
+   public class ConditionalOperator {
+       public static void main(String[] args) {
+           int num1 = 5;
+           int num2 = 8;
+           int max = (num1 > num2)? num1 : num2;
+           System.out.println(max);
+       }
+   }
