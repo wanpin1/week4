@@ -1,0 +1,12 @@
+8. ```java
+   // Exercise 2.5 (Lab2Task8.java)
+   import java.util.Scanner;
+   public class Lab2Task8 {
+       public static void main(String[] args) {
+           Scanner input = new Scanner(System.in);
+           System.out.print("Enter the length of the side: ");
+           double sideLength = input.nextDouble();
+           double area = (3 * Math.sqrt(3) * sideLength * sideLength) / 2;
+           System.out.println("The area of the hexagon is " + area);
+       }
+   }
