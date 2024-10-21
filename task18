@@ -1,0 +1,9 @@
+18. ```java
+   // Exercise 2.1 (Lab2Task17.java)
+   // The code for this task is not fully provided in the PPT, but it seems to be related to handling two-digit numbers
+   // with some specific rules about leading zeros. You may need to provide more details to complete this code.
+   public class Lab2Task17 {
+       public static void main(String[] args) {
+           // Your code here
+       }
+   }
