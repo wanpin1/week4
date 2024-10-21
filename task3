@@ -1,0 +1,9 @@
+// Remainder Operator (Lab2Task3.java)
+public class Lab2Task3 {
+    public static void main(String[] args) {
+        int today = 2; // Tuesday is represented as 2 (assuming Sunday is 0)
+        int daysToAdd = 100;
+        int futureDay = (today + daysToAdd) % 7;
+        System.out.println("In 100 days, it will be day " + futureDay);
+    }
+}
