@@ -1,0 +1,16 @@
+12. ```java
+   // One-way if Statement (Example 3.2) Lab2Task12.java
+   import java.util.Scanner;
+   public class Lab2Task12 {
+       public static void main(String[] args) {
+           Scanner input = new Scanner(System.in);
+           System.out.print("Enter an integer: ");
+           int num = input.nextInt();
+           if (num % 5 == 0) {
+               System.out.println("HiFive");
+           }
+           if (num % 2 == 0) {
+               System.out.println("HiEven");
+           }
+       }
+   }
